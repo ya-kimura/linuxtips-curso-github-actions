@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: check ubuntu version
-        run: cat etc/os-release
+        run: cat /etc/os-release
